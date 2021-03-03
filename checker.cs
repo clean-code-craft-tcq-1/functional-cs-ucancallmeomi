@@ -29,9 +29,9 @@ namespace BatteryManagementSystem
             BatteryThresholdCheck.checkValueLimits("SOC", soc, socMaxLimit, socMinLimit);
         }
 
-        public static void checkChargeRate(float temparature)
+        public static void checkChargeRate(float ChargeRate)
         {
-            BatteryThresholdCheck.checkValueLimits("Temparature", temparature, chargeRateMaxLimit, chargeRateMinLimit);
+            BatteryThresholdCheck.checkValueLimits("ChargeRate", ChargeRate, chargeRateMaxLimit, chargeRateMinLimit);
         }
 
         static int Main()
